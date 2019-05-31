@@ -14,6 +14,9 @@
         },
         "patchelf": {
             "uri": "github:NixOS/patchelf"
+        },
+        "blender-bin": {
+            "uri": "github:edolstra/nix-warez?dir=blender"
         }
     },
     "version": 1
