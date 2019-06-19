@@ -17,6 +17,9 @@
         },
         "blender-bin": {
             "uri": "github:edolstra/nix-warez?dir=blender"
+        },
+        "nixos-homepage": {
+            "uri": "github:NixOS/nixos-homepage/flake"
         }
     },
     "version": 1
