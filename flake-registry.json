@@ -1,7 +1,7 @@
 {
     "flakes": {
         "dwarffs": {
-            "uri": "github:edolstra/dwarffs/flake"
+            "uri": "github:edolstra/dwarffs"
         },
         "nix": {
             "uri": "github:NixOS/nix/flakes"
