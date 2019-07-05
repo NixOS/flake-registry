@@ -7,7 +7,7 @@
             "uri": "github:NixOS/nix/flakes"
         },
         "nixpkgs": {
-            "uri": "github:edolstra/nixpkgs/release-19.03"
+            "uri": "github:edolstra/nixpkgs"
         },
         "hydra": {
             "uri": "github:NixOS/hydra/flake"
