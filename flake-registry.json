@@ -1,29 +1,29 @@
 {
-    "flakes": {
-        "dwarffs": {
-            "uri": "github:edolstra/dwarffs"
-        },
-        "nix": {
-            "uri": "github:NixOS/nix/flakes"
-        },
-        "nixpkgs": {
-            "uri": "github:edolstra/nixpkgs"
-        },
-        "hydra": {
-            "uri": "github:NixOS/hydra/flake"
-        },
-        "patchelf": {
-            "uri": "github:NixOS/patchelf"
-        },
-        "blender-bin": {
-            "uri": "github:edolstra/nix-warez?dir=blender"
-        },
-        "nixos-homepage": {
-            "uri": "github:NixOS/nixos-homepage/flake"
-        },
-        "nixops": {
-            "uri": "github:NixOS/nixops/flake-support"
-        }
+  "flakes": {
+    "blender-bin": {
+      "uri": "github:edolstra/nix-warez?dir=blender"
     },
-    "version": 1
+    "dwarffs": {
+      "uri": "github:edolstra/dwarffs"
+    },
+    "hydra": {
+      "uri": "github:NixOS/hydra/flake"
+    },
+    "nix": {
+      "uri": "github:NixOS/nix/flakes"
+    },
+    "nixops": {
+      "uri": "github:NixOS/nixops/flake-support"
+    },
+    "nixos-homepage": {
+      "uri": "github:NixOS/nixos-homepage/flake"
+    },
+    "nixpkgs": {
+      "uri": "github:edolstra/nixpkgs"
+    },
+    "patchelf": {
+      "uri": "github:NixOS/patchelf"
+    }
+  },
+  "version": 1
 }
