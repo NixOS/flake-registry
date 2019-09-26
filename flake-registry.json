@@ -20,6 +20,9 @@
         },
         "nixos-homepage": {
             "uri": "github:NixOS/nixos-homepage/flake"
+        },
+        "nixops": {
+            "uri": "github:NixOS/nixops/flake-support"
         }
     },
     "version": 1
