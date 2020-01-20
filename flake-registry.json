@@ -1,27 +1,27 @@
 {
   "flakes": {
-    "blender-bin": {
+    "flake:blender-bin": {
       "uri": "github:edolstra/nix-warez?dir=blender"
     },
-    "dwarffs": {
+    "flake:dwarffs": {
       "uri": "github:edolstra/dwarffs"
     },
-    "hydra": {
+    "flake:hydra": {
       "uri": "github:NixOS/hydra/flake"
     },
-    "nix": {
+    "flake:nix": {
       "uri": "github:NixOS/nix/flakes"
     },
-    "nixops": {
+    "flake:nixops": {
       "uri": "github:NixOS/nixops/flake-support"
     },
-    "nixos-homepage": {
+    "flake:nixos-homepage": {
       "uri": "github:NixOS/nixos-homepage/flake"
     },
-    "nixpkgs": {
+    "flake:nixpkgs": {
       "uri": "github:edolstra/nixpkgs"
     },
-    "patchelf": {
+    "flake:patchelf": {
       "uri": "github:NixOS/patchelf"
     }
   },
