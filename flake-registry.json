@@ -9,6 +9,9 @@
     "flake:hydra": {
       "uri": "github:NixOS/hydra/flake"
     },
+    "flake:nimble": {
+      "uri": "github:nix-community/flake-nimble"
+    },
     "flake:nix": {
       "uri": "github:NixOS/nix/flakes"
     },
