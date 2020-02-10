@@ -1,32 +1,108 @@
 {
-  "flakes": {
-    "flake:blender-bin": {
-      "uri": "github:edolstra/nix-warez?dir=blender"
-    },
-    "flake:dwarffs": {
-      "uri": "github:edolstra/dwarffs"
-    },
-    "flake:hydra": {
-      "uri": "github:NixOS/hydra/flake"
-    },
-    "flake:nimble": {
-      "uri": "github:nix-community/flake-nimble"
-    },
-    "flake:nix": {
-      "uri": "github:NixOS/nix/flakes"
-    },
-    "flake:nixops": {
-      "uri": "github:NixOS/nixops/flake-support"
-    },
-    "flake:nixos-homepage": {
-      "uri": "github:NixOS/nixos-homepage/flake"
-    },
-    "flake:nixpkgs": {
-      "uri": "github:edolstra/nixpkgs"
-    },
-    "flake:patchelf": {
-      "uri": "github:NixOS/patchelf"
-    }
-  },
-  "version": 1
+    "flakes": [
+        {
+            "from": {
+                "id": "blender-bin",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "edolstra",
+                "repo": "nix-warez",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "dwarffs",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "edolstra",
+                "repo": "dwarffs",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "hydra",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "ref": "flake",
+                "repo": "hydra",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "nimble",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "nix-community",
+                "repo": "flake-nimble",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "nix",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "ref": "flakes",
+                "repo": "nix",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "nixops",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "ref": "flake-support",
+                "repo": "nixops",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "nixos-homepage",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "ref": "flake",
+                "repo": "nixos-homepage",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "nixpkgs",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "edolstra",
+                "repo": "nixpkgs",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
+                "id": "patchelf",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "repo": "patchelf",
+                "type": "github"
+            }
+        }
+    ],
+    "version": 2
 }
