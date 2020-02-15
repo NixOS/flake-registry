@@ -91,7 +91,8 @@
             "to": {
                 "owner": "edolstra",
                 "repo": "nixpkgs",
-                "type": "github"
+                "type": "github",
+                "ref": "release-19.09"
             }
         },
         {
