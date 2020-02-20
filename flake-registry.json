@@ -9,7 +9,7 @@
                 "owner": "edolstra",
                 "repo": "nix-warez",
                 "type": "github",
-                "subdir": "blender"
+                "dir": "blender"
             }
         },
         {
