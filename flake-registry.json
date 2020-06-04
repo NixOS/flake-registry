@@ -1,133 +1,133 @@
 {
-    "flakes": [
-        {
-            "from": {
-                "id": "blender-bin",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "edolstra",
-                "repo": "nix-warez",
-                "type": "github",
-                "dir": "blender"
-            }
-        },
-        {
-            "from": {
-                "id": "dwarffs",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "edolstra",
-                "repo": "dwarffs",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "hydra",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "repo": "hydra",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "nimble",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "nix-community",
-                "repo": "flake-nimble",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "nix",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "ref": "flakes",
-                "repo": "nix",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "nixops",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "ref": "flake-support",
-                "repo": "nixops",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "nixos-homepage",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "ref": "flake",
-                "repo": "nixos-homepage",
-                "type": "github"
-            }
-        },
-        {
-            "_comment": "Remove this soon (20200210)",
-            "from": {
-                "id": "nixpkgs",
-                "type": "indirect",
-                "ref": "release-19.09"
-            },
-            "to": {
-                "owner": "edolstra",
-                "repo": "nixpkgs",
-                "type": "github",
-                "ref": "release-19.09"
-            }
-        },
-        {
-            "from": {
-                "id": "nixpkgs",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "repo": "nixpkgs",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "templates",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "repo": "templates",
-                "type": "github"
-            }
-        },
-        {
-            "from": {
-                "id": "patchelf",
-                "type": "indirect"
-            },
-            "to": {
-                "owner": "NixOS",
-                "repo": "patchelf",
-                "type": "github"
-            }
-        }
-    ],
-    "version": 2
+  "flakes": [
+    {
+      "from": {
+        "id": "blender-bin",
+        "type": "indirect"
+      },
+      "to": {
+        "dir": "blender",
+        "owner": "edolstra",
+        "repo": "nix-warez",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "dwarffs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "repo": "dwarffs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "hydra",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "hydra",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nimble",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "flake-nimble",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "flakes",
+        "repo": "nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixops",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "flake-support",
+        "repo": "nixops",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixos-homepage",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "flake",
+        "repo": "nixos-homepage",
+        "type": "github"
+      }
+    },
+    {
+      "_comment": "Remove this soon (20200210)",
+      "from": {
+        "id": "nixpkgs",
+        "ref": "release-19.09",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "ref": "release-19.09",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "templates",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "templates",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "patchelf",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "patchelf",
+        "type": "github"
+      }
+    }
+  ],
+  "version": 2
 }
