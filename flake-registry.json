@@ -108,6 +108,17 @@
         },
         {
             "from": {
+                "id": "templates",
+                "type": "indirect"
+            },
+            "to": {
+                "owner": "NixOS",
+                "repo": "templates",
+                "type": "github"
+            }
+        },
+        {
+            "from": {
                 "id": "patchelf",
                 "type": "indirect"
             },
