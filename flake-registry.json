@@ -82,6 +82,17 @@
       }
     },
     {
+      "from": {
+        "id": "nur",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
+    {
       "_comment": "Remove this soon (20200210)",
       "from": {
         "id": "nixpkgs",
