@@ -52,7 +52,6 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "flakes",
         "repo": "nix",
         "type": "github"
       }
