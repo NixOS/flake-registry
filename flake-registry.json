@@ -70,6 +70,17 @@
     },
     {
       "from": {
+        "id": "nixos-hardware",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nixos-homepage",
         "type": "indirect"
       },
