@@ -63,7 +63,6 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "flake-support",
         "repo": "nixops",
         "type": "github"
       }
