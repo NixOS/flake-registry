@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "mach-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nimble",
         "type": "indirect"
       },
