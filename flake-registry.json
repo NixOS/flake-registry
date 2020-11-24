@@ -147,6 +147,17 @@
         "repo": "patchelf",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "nix-serve",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "repo": "nix-serve",
+        "type": "github"
+      }
     }
   ],
   "version": 2
