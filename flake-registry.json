@@ -158,6 +158,17 @@
         "repo": "nix-serve",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "nickel",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "tweag",
+        "repo": "nickel",
+        "type": "github"
+      }
     }
   ],
   "version": 2
