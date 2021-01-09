@@ -113,15 +113,14 @@
       }
     },
     {
-      "_comment": "Remove this soon (20200210)",
       "from": {
         "id": "nixpkgs",
-        "ref": "release-19.09",
+        "ref": "nixos-20.09",
         "type": "indirect"
       },
       "to": {
-        "owner": "edolstra",
-        "ref": "release-19.09",
+        "owner": "NixOS",
+        "ref": "nixos-20.09",
         "repo": "nixpkgs",
         "type": "github"
       }
