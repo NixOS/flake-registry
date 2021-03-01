@@ -113,20 +113,6 @@
       }
     },
     {
-      "_comment": "Remove this soon (20200210)",
-      "from": {
-        "id": "nixpkgs",
-        "ref": "release-19.09",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "edolstra",
-        "ref": "release-19.09",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
       "from": {
         "id": "nixpkgs",
         "type": "indirect"
