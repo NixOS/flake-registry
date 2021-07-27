@@ -25,6 +25,17 @@
     },
     {
       "from": {
+        "id": "flake-utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "flake-utils",
+        "repo": "numtide",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "hydra",
         "type": "indirect"
       },
