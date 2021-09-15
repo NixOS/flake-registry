@@ -166,6 +166,17 @@
         "repo": "nickel",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "schildichat",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "SchildiChat",
+        "repo": "schildichat-desktop",
+        "type": "github"
+      }
     }
   ],
   "version": 2
