@@ -25,6 +25,17 @@
     },
     {
       "from": {
+        "id": "fenix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "fenix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "hydra",
         "type": "indirect"
       },
