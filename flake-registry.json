@@ -14,6 +14,17 @@
     },
     {
       "from": {
+        "id": "dreampkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "dreampkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "dwarffs",
         "type": "indirect"
       },
