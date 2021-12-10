@@ -25,6 +25,17 @@
     },
     {
       "from": {
+        "id": "home-manager",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "hydra",
         "type": "indirect"
       },
