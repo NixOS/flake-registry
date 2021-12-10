@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "flake-utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "flake-utils",
+        "repo": "numtide",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "home-manager",
         "type": "indirect"
       },
