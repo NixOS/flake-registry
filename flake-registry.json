@@ -62,8 +62,8 @@
         "type": "indirect"
       },
       "to": {
-        "owner": "flake-utils",
-        "repo": "numtide",
+        "owner": "numtide",
+        "repo": "flake-utils",
         "type": "github"
       }
     },
