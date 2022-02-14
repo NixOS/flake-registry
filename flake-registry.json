@@ -214,6 +214,17 @@
     },
     {
       "from": {
+        "id": "poetry2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "poetry2nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nix-serve",
         "type": "indirect"
       },
