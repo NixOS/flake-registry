@@ -244,6 +244,17 @@
         "repo": "nickel",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "bundlers",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "bundlers",
+        "type": "github"
+      }
     }
   ],
   "version": 2
