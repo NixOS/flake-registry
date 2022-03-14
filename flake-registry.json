@@ -135,6 +135,17 @@
     },
     {
       "from": {
+        "id": "nix-darwin",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "LnL7",
+        "repo": "nix-darwin",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nixops",
         "type": "indirect"
       },
