@@ -180,6 +180,17 @@
     },
     {
       "from": {
+        "id": "nixos-search",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "nixos-search",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nur",
         "type": "indirect"
       },
