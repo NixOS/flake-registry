@@ -47,6 +47,17 @@
     },
     {
       "from": {
+        "id": "emacs-overlay",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "emacs-overlay",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "fenix",
         "type": "indirect"
       },
