@@ -288,6 +288,17 @@
         "repo": "bundlers",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "pridefetch",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "SpyHoodle",
+        "repo": "pridefetch",
+        "type": "github"
+      }
     }
   ],
   "version": 2
