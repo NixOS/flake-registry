@@ -184,7 +184,6 @@
       },
       "to": {
         "owner": "NixOS",
-        "ref": "flake",
         "repo": "nixos-homepage",
         "type": "github"
       }
