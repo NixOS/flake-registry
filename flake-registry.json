@@ -13,6 +13,17 @@
     },
     {
       "from": {
+        "id": "arion",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hercules-ci",
+        "repo": "arion",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "blender-bin",
         "type": "indirect"
       },
@@ -69,6 +80,17 @@
     },
     {
       "from": {
+        "id": "flake-parts",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "flake-utils",
         "type": "indirect"
       },
@@ -86,6 +108,28 @@
       "to": {
         "owner": "nix-community",
         "repo": "flake-gemini",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "hercules-ci-effects",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hercules-ci",
+        "repo": "hercules-ci-effects",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "hercules-ci-agent",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hercules-ci",
+        "repo": "hercules-ci-agent",
         "type": "github"
       }
     },
