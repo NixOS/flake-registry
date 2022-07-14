@@ -342,6 +342,17 @@
         "repo": "pridefetch",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "helix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "helix-editor",
+        "repo": "helix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
