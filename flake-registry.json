@@ -353,6 +353,17 @@
         "repo": "helix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "haskell.nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
