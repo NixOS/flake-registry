@@ -362,6 +362,16 @@
       "to": {
         "owner": "input-output-hk",
         "repo": "haskell.nix",
+      }
+    },
+    {
+      "from": {
+        "id": "sops-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "Mic92",
+        "repo": "sops-nix",
         "type": "github"
       }
     }
