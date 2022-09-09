@@ -212,6 +212,17 @@
     },
     {
       "from": {
+        "id": "nixos-generators",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "nixos-generators",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nixos-hardware",
         "type": "indirect"
       },
