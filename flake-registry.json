@@ -91,6 +91,17 @@
     },
     {
       "from": {
+        "id": "flake-parts",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "srid",
+        "repo": "haskell-flake",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "flake-utils",
         "type": "indirect"
       },
