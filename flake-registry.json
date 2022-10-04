@@ -364,6 +364,17 @@
         "repo": "sops-nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "surrealdb",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "surrealdb",
+        "repo": "surrealdb",
+        "type": "github"
+      }
     }
   ],
   "version": 2
