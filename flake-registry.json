@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "composable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "ComposableFi",
+        "repo": "composable",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "dreampkgs",
         "type": "indirect"
       },
