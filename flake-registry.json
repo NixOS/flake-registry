@@ -364,6 +364,17 @@
         "repo": "sops-nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "nix-on-droid",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "t184256",
+        "repo": "nix-on-droid",
+        "type": "github"
+      }
     }
   ],
   "version": 2
