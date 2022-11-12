@@ -47,6 +47,17 @@
     },
     {
       "from": {
+        "id": "disko",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "disko",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "dreampkgs",
         "type": "indirect"
       },
