@@ -364,6 +364,17 @@
         "repo": "sops-nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "std",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "divnix",
+        "repo": "std",
+        "type": "github"
+      }
     }
   ],
   "version": 2
