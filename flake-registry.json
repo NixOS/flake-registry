@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "deploy-rs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "serokell",
+        "repo": "deploy-rs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "dreampkgs",
         "type": "indirect"
       },
