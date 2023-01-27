@@ -356,7 +356,7 @@
     },
     {
       "from": {
-        "id": "haskell.nix",
+        "id": "haskell-nix",
         "type": "indirect"
       },
       "to": {
