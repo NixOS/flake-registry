@@ -356,6 +356,17 @@
     },
     {
       "from": {
+        "id": "systems",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "helix",
         "type": "indirect"
       },
