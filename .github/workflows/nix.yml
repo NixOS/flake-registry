@@ -1,0 +1,15 @@
+name: Nix
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v20
+      - run: ./ci.sh
