@@ -34,6 +34,7 @@
         "type": "github"
       }
     },
+    
     {
       "from": {
         "id": "deploy-rs",
@@ -42,6 +43,17 @@
       "to": {
         "owner": "serokell",
         "repo": "deploy-rs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "composable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "ComposableFi",
+        "repo": "composable",
         "type": "github"
       }
     },
