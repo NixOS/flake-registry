@@ -201,7 +201,7 @@
     },
     {
       "from": {
-        "id": "nix-darwin",
+        "id": "darwin",
         "type": "indirect"
       },
       "to": {
