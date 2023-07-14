@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "cachix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "cachix",
+        "repo": "cachix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "composable",
         "type": "indirect"
       },
