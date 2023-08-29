@@ -146,6 +146,17 @@
     },
     {
       "from": {
+        "id": "haumea",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "haumea",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "hercules-ci-effects",
         "type": "indirect"
       },
