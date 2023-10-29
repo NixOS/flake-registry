@@ -36,6 +36,17 @@
     },
     {
       "from": {
+        "id": "bundlers",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "repo": "bundlers",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "cachix",
         "type": "indirect"
       },
@@ -146,12 +157,12 @@
     },
     {
       "from": {
-        "id": "hercules-ci-effects",
+        "id": "helix",
         "type": "indirect"
       },
       "to": {
-        "owner": "hercules-ci",
-        "repo": "hercules-ci-effects",
+        "owner": "helix-editor",
+        "repo": "helix",
         "type": "github"
       }
     },
@@ -163,6 +174,17 @@
       "to": {
         "owner": "hercules-ci",
         "repo": "hercules-ci-agent",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "hercules-ci-effects",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hercules-ci",
+        "repo": "hercules-ci-effects",
         "type": "github"
       }
     },
@@ -201,6 +223,17 @@
     },
     {
       "from": {
+        "id": "nickel",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "tweag",
+        "repo": "nickel",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nimble",
         "type": "indirect"
       },
@@ -229,6 +262,17 @@
       "to": {
         "owner": "LnL7",
         "repo": "nix-darwin",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nix-serve",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "repo": "nix-serve",
         "type": "github"
       }
     },
@@ -278,17 +322,6 @@
     },
     {
       "from": {
-        "id": "nur",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "repo": "NUR",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "nixpkgs",
         "type": "indirect"
       },
@@ -301,12 +334,12 @@
     },
     {
       "from": {
-        "id": "templates",
+        "id": "nur",
         "type": "indirect"
       },
       "to": {
-        "owner": "NixOS",
-        "repo": "templates",
+        "owner": "nix-community",
+        "repo": "NUR",
         "type": "github"
       }
     },
@@ -334,45 +367,23 @@
     },
     {
       "from": {
-        "id": "nix-serve",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "edolstra",
-        "repo": "nix-serve",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "nickel",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "tweag",
-        "repo": "nickel",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "bundlers",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "repo": "bundlers",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "pridefetch",
         "type": "indirect"
       },
       "to": {
         "owner": "SpyHoodle",
         "repo": "pridefetch",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "sops-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "Mic92",
+        "repo": "sops-nix",
         "type": "github"
       }
     },
@@ -389,23 +400,12 @@
     },
     {
       "from": {
-        "id": "helix",
+        "id": "templates",
         "type": "indirect"
       },
       "to": {
-        "owner": "helix-editor",
-        "repo": "helix",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "sops-nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "Mic92",
-        "repo": "sops-nix",
+        "owner": "NixOS",
+        "repo": "templates",
         "type": "github"
       }
     }
