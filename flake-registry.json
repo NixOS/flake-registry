@@ -146,17 +146,6 @@
     },
     {
       "from": {
-        "id": "gemini",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "repo": "flake-gemini",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "helix",
         "type": "indirect"
       },
