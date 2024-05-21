@@ -223,17 +223,6 @@
     },
     {
       "from": {
-        "id": "nimble",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "nix-community",
-        "repo": "flake-nimble",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "nix",
         "type": "indirect"
       },
