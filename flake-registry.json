@@ -267,6 +267,17 @@
     },
     {
       "from": {
+        "id": "nixos-anywhere",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "nixos-anywhere",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nixos-hardware",
         "type": "indirect"
       },
