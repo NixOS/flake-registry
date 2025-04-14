@@ -238,7 +238,7 @@
         "type": "indirect"
       },
       "to": {
-        "owner": "LnL7",
+        "owner": "nix-darwin",
         "repo": "nix-darwin",
         "type": "github"
       }
