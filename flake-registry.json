@@ -334,6 +334,17 @@
     },
     {
       "from": {
+        "id": "nixvim",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nix-community",
+        "repo": "nixvim",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "nur",
         "type": "indirect"
       },
