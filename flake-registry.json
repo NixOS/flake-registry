@@ -13,6 +13,17 @@
     },
     {
       "from": {
+        "id": "agenix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "ryantm",
+        "repo": "agenix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "arion",
         "type": "indirect"
       },
