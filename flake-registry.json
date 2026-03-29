@@ -400,6 +400,17 @@
     },
     {
       "from": {
+        "id": "qfetch",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "quixaq",
+        "repo": "qfetch",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "sops-nix",
         "type": "indirect"
       },
