@@ -336,6 +336,89 @@
         "id": "nixpkgs",
         "type": "indirect"
       },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixpkgs-unstable"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixos-unstable"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixos-unstable-small"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable-small/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixos-26.05"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-26.05/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixos-26.05-small"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-26.05-small/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixpkgs-26.05-darwin"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-26.05-darwin/nixexprs.tar.xz"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
       "to": {
         "owner": "NixOS",
         "ref": "nixpkgs-unstable",
