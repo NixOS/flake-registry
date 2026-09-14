@@ -339,7 +339,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst"
       }
     },
     {
@@ -351,7 +351,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst"
       }
     },
     {
@@ -363,7 +363,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst"
       }
     },
     {
@@ -375,7 +375,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixos-unstable-small/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixos-unstable-small/nixexprs.tar.zst"
       }
     },
     {
@@ -387,7 +387,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixos-26.05/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixos-26.05/nixexprs.tar.zst"
       }
     },
     {
@@ -399,7 +399,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixos-26.05-small/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixos-26.05-small/nixexprs.tar.zst"
       }
     },
     {
@@ -411,7 +411,7 @@
       "exact": true,
       "to": {
         "type": "tarball",
-        "url": "https://channels.nixos.org/nixpkgs-26.05-darwin/nixexprs.tar.xz"
+        "url": "https://channels.nixos.org/nixpkgs-26.05-darwin/nixexprs.tar.zst"
       }
     },
     {
