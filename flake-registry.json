@@ -382,6 +382,42 @@
       "from": {
         "id": "nixpkgs",
         "type": "indirect",
+        "ref": "nixos-26.11"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-26.11/nixexprs.tar.zst"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixos-26.11-small"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-26.11-small/nixexprs.tar.zst"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
+        "ref": "nixpkgs-26.11"
+      },
+      "exact": true,
+      "to": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-26.11/nixexprs.tar.zst"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect",
         "ref": "nixos-26.05"
       },
       "exact": true,
